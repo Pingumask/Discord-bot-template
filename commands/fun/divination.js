@@ -1,8 +1,8 @@
 module.exports = {
-    name: '8ball',
+    name: 'divination',
     category: 'fun',
     description: 'Donne une réponse aléatoire',
-    utilisation: '{prefix}8ball',
+    utilisation: '{prefix}divination [question]',
     options:[
         {
             name:'question',
