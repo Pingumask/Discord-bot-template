@@ -4,7 +4,10 @@
   "description": "Template to create a discord bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "register-global": "node register-global.js",
+    "register-guild": "node register-guild.js",
+    "unregister-guild": "node unregister-guild.js"
   },
   "author": "Pingumask",
   "license": "WTFPL",
