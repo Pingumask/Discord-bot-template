@@ -26,7 +26,7 @@ module.exports = {
         setTimeout(()=>{
             delete cooldown[interaction.guild.id][interaction.member.id];
         }, TIMER);
-        //TODO: intégrer le cooldown
+
         const images =[
             'https://c.tenor.com/DxMIq9-tS5YAAAAC/milk-and-mocha-bear-couple.gif',
             'https://c.tenor.com/vVBFWMH7J9oAAAAC/hug-peachcat.gif',
