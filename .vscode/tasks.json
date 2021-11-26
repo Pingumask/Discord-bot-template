@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "Bot run",
+			"detail": "node index.js"
+		},
+		{
+			"type": "npm",
+			"script": "register-global",
+			"problemMatcher": [],
+			"label": "Global Register",
+			"detail": "node register-global.js",
+			"presentation":{
+				"echo": false,
+				"close": true
+			}
+		},
+		{
+			"type": "npm",
+			"script": "register-guild",
+			"problemMatcher": [],
+			"label": "Guild Register",
+			"detail": "node register-guild.js",
+			"presentation":{
+				"echo": false,
+				"close": true
+			}
+		},
+		{
+			"type": "npm",
+			"script": "unregister-guild",
+			"problemMatcher": [],
+			"label": "Guild Unregister",
+			"detail": "node unregister-guild.js",
+			"presentation":{
+				"echo": false,
+				"close": true
+			}
+		}
+	]
+}
