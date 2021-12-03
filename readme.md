@@ -61,3 +61,13 @@ npm install
         }
     ```
   - Dans vscode utiliser le raccourci `ctrl+p` puis saisir `>tasks` et selectionner `>Tasks: Manage Automatic Tasks in Folder`
+
+## Création de nouvelles commandes
+
+Pour créer une nouvelle commande, créer un nouveau fichier js dans un sous-dossier du dossier `commands` en prenant modèle sur les commandes fournies.
+
+D'autres commandes peuvent être prises pour modèle sur un bot que j'ai créé à partir du présent template : https://github.com/Pingumask/PlectrumV2
+
+Lors de l'ajout ou de la suppression d'une commande, ne pas oublier d'executer les taches de référencement évoquées plus tôt dans ce fichier afin de les voir apparaitre
+
+Le bot se basant sur la librairie `Discordjs`, se référer à leur documentation et leurs guides pour développer des commandes plus complexes : https://discord.js.org/
