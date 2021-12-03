@@ -3,9 +3,9 @@
 ## Installation
 - Créer un projet à partir de ce modèle en cliquant sur le bouton `Use this template` depuis la page : https://github.com/Pingumask/Discord-bot-template
   
-- Cloner le projet nouvellement créé
+- Cloner le projet nouvellement créé (à partir du bouton `code` au dessus de la liste des fichiers)
 
-- Installer les dépendences : 
+- Installer les dépendences en exécutant la commande suivante dans le dossier du projet : 
 ```bash
 npm install
 ```
