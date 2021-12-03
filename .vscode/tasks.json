@@ -6,7 +6,7 @@
 			"script": "start",
 			"problemMatcher": [],
 			"label": "Bot run",
-			"detail": "node index.js"
+			"detail": "npm run start"
 		},
 		{
 			"type": "npm",

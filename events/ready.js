@@ -1,4 +1,5 @@
 module.exports = async (client) => {
-    console.log(`Connecté en tant que ${client.user.username}. Prêt sur ${client.guilds.cache.size} serveurs`);
-    client.user.setActivity('Fait des tests');
+    const now = new Date();
+    console.log(`(${now.toLocaleDateString()} ${now.toLocaleTimeString()}) Connecté en tant que ${client.user.tag} sur ${client.guilds.cache.size} serveurs`);
+    client.user.setActivity("faire des tests", { type: "PLAYING"});
 };

@@ -4,7 +4,7 @@ module.exports = {
     description: 'Teste la latence du bot',
     utilisation: '{prefix}ping',
 
-    execute:(client, interaction)=>{
+    execute: async (client, interaction)=>{
         interaction.reply(`Pong : **${client.ws.ping}ms** !`);
     },
 };
